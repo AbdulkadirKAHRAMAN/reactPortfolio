@@ -31,7 +31,7 @@ export default function Gallery() {
   ];
 
   return (
-    <section className="relative py-20 bg-[#121212] ">
+    <section id="work" className="relative py-20 bg-[#121212] ">
       <div ref={ref} className="container mx-auto px-4">
         <motion.h2
           className="mb-12 text-center text-3xl font-bold tracking-tighter sm:text-4xl text-white"

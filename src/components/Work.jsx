@@ -47,7 +47,7 @@ const Work = () => {
       <div className="container mx-auto px-4">
         <h2 className="headline-2 mb-6 text-center text-lg">Projelerim</h2>
 
-        <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div  className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {works.map(({ imgSrc, title, tags, projectLink }, index) => (
             <ProjectCard
               key={index}

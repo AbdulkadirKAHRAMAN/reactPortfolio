@@ -34,14 +34,12 @@ const skillsData = {
     { name: "Next.js", proficiency: 75 },
     { name: "Tailwind CSS", proficiency: 75 },
   ],
-  // "Frameworks/Libraries": [
-
-  // ],
+  
 };
 
 const AboutMe = () => {
   return (
-    <section style={{ padding: "50px", background: "#121212", color: "#fff" }}>
+    <section id="about" style={{ padding: "50px", background: "#121212", color: "#fff" }}>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }}>
         <h3 style={{ textAlign: "center", marginTop: "50px" }}>Trainings so far 🛤️</h3>
         <div>
